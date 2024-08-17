@@ -1,0 +1,7 @@
+/* Estilizando a lista de notas */ul {
+    list-style: none; /* Remove os marcadores de lista */padding: 0; /* Remove o padding padrão */margin: 0; /* Remove a margem padrão */display: flex; /* Flexbox para organizar os itens */flex-wrap: wrap; /* Permite quebra de linha para os cards */gap: 16px; /* Espaçamento entre os itens */justify-content: flex-start; /* Alinha os cards à esquerda */flex: 2; /* Permite que a lista de notas ocupe mais espaço à direita */
+}
+
+/* Estilizando os itens da lista */li {
+    flex: 11calc(20% - 16px); /* Cada item ocupa 20% da largura da linha, menos o espaço do gap */box-sizing: border-box; /* Inclui o padding e a borda no tamanho total do elemento */
+}

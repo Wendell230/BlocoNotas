@@ -1,0 +1,23 @@
+/* Estilizando o container do card */.card-nota {
+    background-color: #f8f9fa; /* Cor de fundo clara */border-radius: 8px; /* Cantos arredondados */box-shadow: 04px8pxrgba(0, 0, 0, 0.1); /* Sombra sutil para dar profundidade */margin: 16px; /* Margem para separar os cards */padding: 16px; /* Espaço interno */transition: transform 0.2s; /* Animação para quando o card é focado */
+}
+
+/* Estilizando o cabeçalho do card */.card-nota_cabecalho {
+    border-bottom: 1px solid #ddd; /* Linha separadora no final do cabeçalho */padding-bottom: 8px; /* Espaço abaixo do cabeçalho */margin-bottom: 8px; /* Espaço externo ao cabeçalho */
+}
+
+/* Estilizando o título do card */.card-nota_titulo {
+    font-size: 1.5em; /* Tamanho da fonte */color: #333; /* Cor do texto */margin: 0; /* Remove a margem padrão */
+}
+
+/* Estilizando o texto do card */.card-nota_texto {
+    font-size: 1em; /* Tamanho da fonte do texto */color: #555; /* Cor do texto */margin: 0; /* Remove a margem padrão */
+}
+
+/* Adiciona um efeito de zoom quando o card é focado */.card-nota:hover {
+    transform: scale(1.05); /* Aumenta o tamanho do card */
+}
+
+/* Estiliza o card para parecer levemente elevado */.card-nota:active {
+    box-shadow: 06px12pxrgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}

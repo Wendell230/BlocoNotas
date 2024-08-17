@@ -1,0 +1,3 @@
+/* Estilizando o container principal */.container {
+    display: flex; /* Usa flexbox para organizar os elementos em linha */justify-content: space-between; /* Espaça os elementos ao máximo */align-items: flex-start; /* Alinha os elementos ao topo */padding: 16px; /* Espaçamento interno */border-left: 2px solid #ddd; /* Linha separadora entre o formulário e os cards */
+}
